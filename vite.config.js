@@ -5,5 +5,11 @@ import manifest from './manifest.json'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), crx({ manifest })]
+  plugins: [
+    // FIXME: need to use the classic runtime with `@vitejs/plugin-react`
+    // https://github.com/crxjs/chrome-extension-tools/issues/454
+    // react({ jsxRuntime: 'classic' }),
+    react(),
+    crx({ manifest })
+  ]
 })
