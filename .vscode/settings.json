@@ -1,0 +1,24 @@
+// settings.json
+
+{
+  // reorders imports appropriately
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  // formats/prettifies code on save
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  // keeps current function/scope pinned to top
+  "editor.stickyScroll.enabled": true,
+  // two spaces
+  "editor.tabSize": 2,
+  // keep node_modules out of the way
+  "files.exclude": {
+    "**/node_modules/": true
+  },
+  "npm.exclude": [],
+  // prettier for javascript/typescript
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
