@@ -8,18 +8,19 @@
     "dev:debug": "DEBUG=vite:config,crx:* vite",
     "build": "vite build",
     "preview": "vite preview",
-    "reset": "find . -type dir -name node_modules | xargs rm -rf && rm -rf dist/"
+    "reset": "find . -type dir -name node_modules | xargs rm -rf && rm -rf yarn.lock dist/"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "prettier": "^2.7.1",
-    "@crxjs/vite-plugin": "^1.0.14",
+    "@crxjs/vite-plugin": "1.0.12",
     "@types/react": "^18.0.20",
     "@types/react-dom": "^18.0.6",
-    "@vitejs/plugin-react": "^1.3.2",
-    "vite": "^2.9.15"
-  }
+    "@vitejs/plugin-react": "1.3.2",
+    "prettier": "^2.7.1",
+    "vite": "2.9.15"
+  },
+  "packageManager": "yarn@3.2.3"
 }

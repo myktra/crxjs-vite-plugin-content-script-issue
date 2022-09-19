@@ -35,7 +35,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <h3>16</h3>
+      <h3>9</h3>
     </div>
   )
 }

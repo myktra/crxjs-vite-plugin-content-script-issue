@@ -14,7 +14,7 @@
   "editor.tabSize": 2,
   // keep node_modules out of the way
   "files.exclude": {
-    "**/node_modules/": true
+    // "**/node_modules/": true
   },
   "npm.exclude": [],
   // prettier for javascript/typescript
